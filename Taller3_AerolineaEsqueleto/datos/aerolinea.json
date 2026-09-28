@@ -1,0 +1,34 @@
+{
+    "aviones": [{
+        "nombre": "Avion1",
+        "capacidad": 100
+    }],
+    "aeropuertos": [
+        {
+            "codigo": "BOG",
+            "latitud": 4.7016,
+            "longitud": -74.1469,
+            "ciudad": "Bogota",
+            "nombre": "El Dorado"
+        },
+        {
+            "codigo": "MDE",
+            "latitud": 6.1645,
+            "longitud": -75.4231,
+            "ciudad": "Medellin",
+            "nombre": "Jose Maria Cordova"
+        }
+    ],
+    "vuelos": [{
+        "fecha": "2024-11-05",
+        "codigoRuta": "4558",
+        "avion": "Avion1"
+    }],
+    "rutas": [{
+        "codigoRuta": "4558",
+        "horaLlegada": "0900",
+        "origen": "BOG",
+        "destino": "MDE",
+        "horaSalida": "0800"
+    }]
+}
